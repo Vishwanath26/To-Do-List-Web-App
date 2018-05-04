@@ -12,6 +12,7 @@
     <JAVADOC />
     <SOURCES>
       <root url="jar://$USER_HOME$/.ideaLibSources/spring-webmvc-portlet-4.3.16.RELEASE-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.ideaLibSources/mysql-connector-java-5.1.46-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

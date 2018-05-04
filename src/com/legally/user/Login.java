@@ -27,7 +27,7 @@ public class Login {
         else
         {
             mv.setViewName("index");
-            mv.addObject("error", "Invalid username and password!");
+            mv.addObject("LoginError", "Invalid username and password!");
         }
         return  mv;
 

@@ -26,6 +26,9 @@
 
                 <form action="Register" method="post">
 
+                    <c:if test="${not empty error}">
+                        <div class="error" style="color: red; font-size: 25px">${RegisterError}</div>
+                    </c:if>
                     <div class="top-row">
                         <div class="field-wrap">
                             <label>
@@ -68,7 +71,7 @@
                 <form action="Login" method="post">
 
                     <c:if test="${not empty error}">
-                        <div class="error" style="color: red; font-size: 25px;">${error}</div>
+                        <div class="error" style="color: red; font-size: 25px;">${LoginError}</div>
                     </c:if>
                     <div class="field-wrap">
                         <label>

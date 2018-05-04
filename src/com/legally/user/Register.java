@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
 
 import javax.servlet.http.HttpServletRequest;
+import java.sql.SQLException;
 
 @Controller
 class Register{
@@ -27,6 +28,20 @@ class Register{
         user.setLastName(lastName);
         user.setEmail(email);
         user.setPassword(password);
+        //For checking registered user
+        try {
+            DAO dao = new DAO(email,password);
+            if(dao.result != null)
+            {
+                ModelAndView mv = new ModelAndView();
+                mv.setViewName("index");
+                mv.addObject("RegisterError", "You are already registered please Login");
+                return mv;
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        //For registering new user
         RegisterDAO registerDAO = new RegisterDAO(user);
         ModelAndView mv = new ModelAndView();
             mv.setViewName("To-Do List");
