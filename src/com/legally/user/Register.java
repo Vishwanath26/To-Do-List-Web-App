@@ -4,6 +4,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.servlet.ModelAndView;
 
 import javax.servlet.http.HttpServletRequest;
 
@@ -15,16 +16,21 @@ class Register{
     public String email = null;
     public String password = null;
     @RequestMapping(value = "/Register", method = RequestMethod.POST)
-    public @ResponseBody void Register(HttpServletRequest request)
+    public @ResponseBody ModelAndView Register(HttpServletRequest request)
     {
         firstName = request.getParameter("firstName");
         lastName = request.getParameter("lastName");
-        email = request.getParameter("email");
-        password = request.getParameter("password");
+        email = request.getParameter("newEmail");
+        password = request.getParameter("newPassword");
         User user = new User();
         user.setFirstName(firstName);
         user.setLastName(lastName);
         user.setEmail(email);
         user.setPassword(password);
+        RegisterDAO registerDAO = new RegisterDAO(user);
+        ModelAndView mv = new ModelAndView();
+            mv.setViewName("To-Do List");
+            mv.addObject("firstName", registerDAO.firstName);
+            return mv;
     }
 };

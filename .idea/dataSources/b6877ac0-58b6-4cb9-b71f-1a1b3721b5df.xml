@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dataSource name="Users@localhost">
-  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.7">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.8">
     <root id="1">
+      <ServerVersion>8.0.11</ServerVersion>
+      <DefaultEngine>InnoDB</DefaultEngine>
+      <DefaultTmpEngine>InnoDB</DefaultTmpEngine>
       <DefaultCasing>lower/lower</DefaultCasing>
     </root>
     <schema id="2" parent="1" name="information_schema">
@@ -1101,13 +1104,12 @@
       <Charset>utf8mb4</Charset>
       <DefaultForCharset>0</DefaultForCharset>
     </collation>
-    <table id="277" parent="6" name="user">
-      <Engine>InnoDB</Engine>
-    </table>
+    <table id="277" parent="6" name="user"/>
     <column id="278" parent="277" name="userId">
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="279" parent="277" name="firstName">

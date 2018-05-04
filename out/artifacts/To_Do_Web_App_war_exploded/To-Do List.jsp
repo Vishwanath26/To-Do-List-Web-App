@@ -7,7 +7,9 @@
 <body>
 
 <div id="myDIV" class="header">
-    <h2 style="margin:5px">${firstName}'s To-Do List</h2>
+    <button class="Hi-btn">${firstName}</button>
+    <button type="button" class="Logout-btn" onclick="window.location.href='http://localhost:8080/index.jsp';">Log Out</button>
+    <h2 style="margin:5px">To-Do List</h2>
     <input type="text" id="myInput" placeholder="Title...">
     <span onclick="newElement()" class="addBtn">Add</span>
 </div>
