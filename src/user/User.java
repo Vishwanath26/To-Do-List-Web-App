@@ -1,4 +1,4 @@
-package com.legally.user;
+package user;
 
 public class User {
     private String firstName;

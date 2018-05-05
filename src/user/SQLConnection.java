@@ -1,5 +1,4 @@
-package com.legally.user;
-import java.sql.*;
+package user;
 
 public class SQLConnection {
         public String Url;

@@ -5,9 +5,17 @@
     <link rel="stylesheet" href="/resources/To-Do%20List/To-Do%20List.css">
 </head>
 <body>
-
+<%
+    String firstName = null;
+    Cookie[] cookies = request.getCookies();
+    if(cookies != null){
+        for(Cookie cookie : cookies){
+            if(cookie.getName().equals("firstName")) firstName = cookie.getValue();
+        }
+    }
+%>
 <div id="myDIV" class="header">
-    <button class="Hi-btn">${firstName}</button>
+    <button class="Hi-btn"><%=firstName%></button>
     <button type="button" class="Logout-btn" onclick="window.location.href='http://localhost:8080/index.jsp';">Log Out</button>
     <h2 style="margin:5px">To-Do List</h2>
     <input type="text" id="myInput" placeholder="Title...">
@@ -16,7 +24,7 @@
 
 <ul id="myUL">
     <li>Hit the gym</li>
-    <li class="checked">Pay bills</li>
+    <li class="checked">${task}</li>
     <li>Meet George</li>
     <li>Buy eggs</li>
     <li>Read a book</li>
