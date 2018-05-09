@@ -65,7 +65,6 @@ public DAO(){
                     query = "SELECT  " + columList + " FROM " + tabName ;
                     ResultSet resultSet = stmt.executeQuery(query);
                     resultSet.next();
-                    System.out.println(resultSet.getString(3));
 
                     break;
             }
@@ -78,7 +77,7 @@ public DAO(){
         }
     }
 
-    public void executeSelectFilterSql(String tabName , String columList , List<String> checkColum , List<String> checkValue) throws ClassNotFoundException, SQLException {
+    public ResultSet executeSelectFilterSql(String tabName , String columList , List<String> checkColum , List<String> checkValue) throws ClassNotFoundException, SQLException {
         SQLConnection con = new SQLConnection();
         Class.forName("com.mysql.jdbc.Driver");
 
@@ -88,8 +87,7 @@ public DAO(){
         String query = "SELECT  " + columList + " FROM " + tabName + " WHERE " + checkColum.get(0) + "= " +checkValue.get(0)+ " AND " + checkColum.get(1) + "= " +"'" +checkValue.get(1) + "'"  ;
         ResultSet resultSet = stmt.executeQuery(query);
         resultSet.next();
-        task = resultSet.getString("task");
-        connection.close();
+        return resultSet;
 
     }
 

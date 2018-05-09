@@ -24,8 +24,6 @@
         <div id="signup">
             <h1>Sign Up for Free</h1>
 
-            <form action="Register" method="post">
-
                 <c:if test="${not empty error}">
                     <div class="error" style="color: red; font-size: 25px">${RegisterError}</div>
                 </c:if>
@@ -64,14 +62,11 @@
 
                 <button type="submit" class="button button-block">Get Started</button>
 
-            </form>
 
         </div>
 
         <div id="login">
             <h1>Welcome Back!</h1>
-
-            <form action="Login" method="post">
 
                 <c:if test="${not empty error}">
                     <div class="error" style="color: red; font-size: 25px;">${LoginError}</div>
@@ -80,21 +75,20 @@
                     <label>
                         Email Address<span class="req">*</span>
                     </label>
-                    <input type="email" name="email" required="" autocomplete="off">
+                    <input type="email" id="email" required="" autocomplete="off">
                 </div>
 
                 <div class="field-wrap">
                     <label>
                         Password<span class="req">*</span>
                     </label>
-                    <input type="password" name="password" required="" autocomplete="off">
+                    <input type="password" id="password" required="" autocomplete="off">
                 </div>
 
                 <p class="forgot"><a href="#">Forgot Password?</a></p>
 
-                <button class="button button-block">Log In</button>
+                <button class="button button-block" id="login-btn">Log In</button>
 
-            </form>
 
         </div>
 
@@ -103,6 +97,7 @@
 </div> <!-- /form -->
 <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script src="/resources/Home/index.js"></script>
+<script src="/resources/Home/login.js"></script>
 
 </body>
 

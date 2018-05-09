@@ -1,8 +1,8 @@
 package user;
 
 public class LoginUser {
-    String email = null;
-    String password = null;
+    public String email;
+    public String password;
 
     public String getEmail() {
         return email;
