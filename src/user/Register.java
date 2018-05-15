@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
 
 import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 import java.sql.SQLException;
 
 @Controller
@@ -18,7 +19,7 @@ class Register{
     public String password = null;
     @RequestMapping(value = "/Register", method = RequestMethod.POST)
     public @ResponseBody
-    ModelAndView Register(HttpServletRequest request) {
+    ModelAndView Register(HttpServletRequest request, HttpServletResponse response) {
         ModelAndView mv = new ModelAndView();
         String columValue = "";
         firstName = request.getParameter("firstName");
@@ -41,6 +42,7 @@ class Register{
         user.setEmail(email);
         columnList += "password";
         user.setPassword(password);
+
         //For checking registered user
         DAO dao = new DAO();
         try {
@@ -54,21 +56,12 @@ class Register{
         } catch (SQLException e) {
             e.printStackTrace();
         }
-        //For registering new user
-        //RegisterDAO registerDAO = new RegisterDAO(user);
-        //Class<?> c = user.getClass();
-        //Field[] fields = c.getDeclaredFields();
-        //String columnList  = "";
-        //String columnValue = "";
-        //for( Field field : fields ) {
-        //  columnList +=field.getName() + ",";
-        //}
 
 
         try {
-            dao.excecuteSql("user", columnList, columValue, 'I');
+            dao.excecuteSql("Users", columnList, columValue, 'I');
 
-
+//Redirect User With Success Message
             mv.setViewName("index");
             mv.addObject("msg", user.getFirstName()+",you are successfully registered,please Login");
             return mv;

@@ -8,6 +8,7 @@ public class DAO {
     public String result = null;
     public String userId = null;
     public String  task = null;
+    SQLConnection con = new SQLConnection();
 
 public DAO(){
 
@@ -15,7 +16,7 @@ public DAO(){
 
     public void  GetUser(String email,String pswd)throws SQLException{
         SQLConnection con = new SQLConnection();
-        String Query = "SELECT firstName,userId FROM User WHERE email =? AND password =?;";
+        String Query = "SELECT firstName,userId FROM Users WHERE email =? AND password =?;";
         try {
             if(Query!=null&&Query!="")
             {
@@ -58,7 +59,7 @@ public DAO(){
             String query = "";
             switch (queryType) {
                 case 'I':
-                    query = "INSERT INTO " + tabName + " ( " + columList + " ) " + "values (" + value + ")";
+                    query = "INSERT INTO " + tabName + " (" + columList  + ") " + " VALUES (" + value + ")";
                     stmt.executeUpdate(query);
                     break;
                 case 'S':

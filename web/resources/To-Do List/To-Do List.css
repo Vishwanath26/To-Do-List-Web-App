@@ -115,19 +115,7 @@ input {
 .addBtn:hover {
   background-color: #bbb;
 }
-.Hi-btn{
-    float: right;
-    position: fixed;
-    right: 220px;
-    top: 18px;
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
-    background-color: #fff282;
-    height: 25px;
-    width: 95px;
-    font-family: monospace;
-    font-size: 14px;
-}
+
 .Logout-btn{
     float: right;
     position: fixed;
@@ -137,16 +125,11 @@ input {
     transition-duration: 0.4s;
     background-color: #fff282;
     height: 25px;
-    width: 75px;
+    width: 78px;
     font-family: monospace;
     font-size: 14px;
 }
 
-.Hi-btn:hover {
-    background-color: #4CAF50; /* Green */
-    color: white;
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-}
 .Logout-btn:hover{
     background-color: #4CAF50; /* Green */
     color: white;
