@@ -13,10 +13,14 @@ CDN's for enhanced UI and UX.
 
 You can get started by clicking on the fork button on the top of this page.
 
-#Authors
+#Some Snapshots of application
 
- Vishwanath Sharma
+![SignUp Page](/images/SignUp.png)
+![Wrong Login](/images/Login.png)
+![ToDo List](/images/TodoList.png)
+![ToDo Delete](/images/ToDoDelete.png)
 
+# Authors
 
-
+Vishwanath Sharma
 
