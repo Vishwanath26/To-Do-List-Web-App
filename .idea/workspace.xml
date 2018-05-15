@@ -8,35 +8,26 @@
   <component name="ChangeListManager">
     <list default="true" id="cba74c0a-2ee0-42df-8dcc-ead4e5dfe508" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/To_Do_Web_App_war_exploded/WEB-INF/classes/user/AddTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/To_Do_Web_App_war_exploded/WEB-INF/classes/user/AddTask.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/To_Do_Web_App_war_exploded/WEB-INF/classes/user/DAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/To_Do_Web_App_war_exploded/WEB-INF/classes/user/DAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/To_Do_Web_App_war_exploded/WEB-INF/classes/user/LoginAndLogout.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/To_Do_Web_App_war_exploded/WEB-INF/classes/user/LoginAndLogout.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/To_Do_Web_App_war_exploded/To-Do List.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/To_Do_Web_App_war_exploded/WEB-INF/classes/user/DeleteTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/To_Do_Web_App_war_exploded/WEB-INF/classes/user/DeleteTask.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/To_Do_Web_App_war_exploded/WEB-INF/classes/user/LoginUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/To_Do_Web_App_war_exploded/WEB-INF/classes/user/LoginUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/To_Do_Web_App_war_exploded/WEB-INF/classes/user/NewTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/To_Do_Web_App_war_exploded/WEB-INF/classes/user/NewTask.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/To_Do_Web_App_war_exploded/WEB-INF/classes/user/Register.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/To_Do_Web_App_war_exploded/WEB-INF/classes/user/Register.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/To_Do_Web_App_war_exploded/WEB-INF/classes/user/RegisterDAO.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/To_Do_Web_App_war_exploded/WEB-INF/classes/user/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/To_Do_Web_App_war_exploded/WEB-INF/classes/user/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/To_Do_Web_App_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/To_Do_Web_App_war_exploded/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/To_Do_Web_App_war_exploded/resources/Home/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/To_Do_Web_App_war_exploded/resources/Home/login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/To_Do_Web_App_war_exploded/resources/To-Do List/To-Do List.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/To_Do_Web_App_war_exploded/resources/To-Do List/To-Do List.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/To_Do_Web_App_war_exploded/resources/To-Do List/To-Do List.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/To_Do_Web_App_war_exploded/resources/To-Do List/To-Do List.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/To Do Web App/user/AddTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/To Do Web App/user/AddTask.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/To Do Web App/user/DAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/To Do Web App/user/LoginAndLogout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/To Do Web App/user/DeleteTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/To Do Web App/user/DeleteTask.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/To Do Web App/user/LoginUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/To Do Web App/user/LoginUser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/To Do Web App/user/Register.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/To Do Web App/user/NewTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/To Do Web App/user/NewTask.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/To Do Web App/user/Register.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/To Do Web App/user/Register.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/To Do Web App/user/RegisterDAO.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/To Do Web App/user/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/To Do Web App/user/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/user/AddTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/user/AddTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/user/DAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/user/DAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/user/LoginAndLogout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/user/LoginAndLogout.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/user/LoginUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/user/LoginUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/user/Register.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/user/Register.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/user/RegisterDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/user/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/user/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/resources/Home/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/resources/Home/login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/resources/To-Do List/To-Do List.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/resources/To-Do List/To-Do List.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/resources/To-Do List/To-Do List.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/resources/To-Do List/To-Do List.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/user/AddTaskPOJO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/user/AddTaskPOJO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/user/DeletePOJO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/user/DeletePOJO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/user/LoginUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/user/LoginUserPOJO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/user/LoginUserPOJO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/user/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/user/UserPOJO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/user/UserPOJO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/To-Do List.jsp" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -89,21 +80,21 @@
       <file leaf-file-name="LoginAndLogout.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/user/LoginAndLogout.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
+            <state relative-caret-position="612">
               <caret line="47" column="43" selection-start-line="47" selection-start-column="43" selection-end-line="47" selection-end-column="43" />
               <folding>
                 <element signature="e#1969#1970#0" expanded="true" />
-                <element signature="e#2017#2018#0" expanded="true" />
+                <element signature="e#2031#2032#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Register.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Register.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/user/Register.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="63" column="36" selection-start-line="63" selection-start-column="36" selection-end-line="63" selection-end-column="36" />
+            <state relative-caret-position="155">
+              <caret line="36" column="40" lean-forward="true" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -111,30 +102,53 @@
       <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-396">
+            <state relative-caret-position="1278">
               <caret line="71" column="84" selection-start-line="71" selection-start-column="84" selection-end-line="71" selection-end-column="84" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="login.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/resources/Home/login.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="19" column="40" lean-forward="true" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
-              <folding>
-                <element signature="e#633#3043#0" />
-                <element signature="e#1703#1986#0" />
-                <element signature="e#2128#2975#0" />
-                <element signature="e#2179#2958#0" />
-                <element signature="e#2315#2435#0" />
-                <element signature="e#2537#2841#0" />
-              </folding>
+            <state relative-caret-position="162">
+              <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserPOJO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/user/UserPOJO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DeletePOJO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/user/DeletePOJO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginUserPOJO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/user/LoginUserPOJO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AddTaskPOJO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/user/AddTaskPOJO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -143,7 +157,7 @@
         <entry file="file://$PROJECT_DIR$/web/resources/To-Do List/To-Do List.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="126">
-              <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+              <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -151,8 +165,8 @@
       <file leaf-file-name="To-Do List.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/resources/To-Do List/To-Do List.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="107">
-              <caret line="117" lean-forward="true" selection-start-line="117" selection-end-line="117" />
+            <state relative-caret-position="2106">
+              <caret line="117" selection-start-line="117" selection-end-line="117" />
             </state>
           </provider>
         </entry>
@@ -250,6 +264,10 @@
         <option value="$PROJECT_DIR$/web/resources/Home/login.js" />
         <option value="$PROJECT_DIR$/web/resources/To-Do List/To-Do List.js" />
         <option value="$PROJECT_DIR$/src/user/Register.java" />
+        <option value="$PROJECT_DIR$/src/user/DeletePOJO.java" />
+        <option value="$PROJECT_DIR$/src/user/LoginUserPOJO.java" />
+        <option value="$PROJECT_DIR$/src/user/AddTaskPOJO.java" />
+        <option value="$PROJECT_DIR$/src/user/UserPOJO.java" />
       </list>
     </option>
   </component>
@@ -313,6 +331,20 @@
             <path>
               <item name="To-Do-List-Web-App" type="b2602c69:ProjectViewProjectNode" />
               <item name="To-Do-List-Web-App" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="LoginUserPOJO.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="To-Do-List-Web-App" type="b2602c69:ProjectViewProjectNode" />
+              <item name="To-Do-List-Web-App" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="UserPOJO.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="To-Do-List-Web-App" type="b2602c69:ProjectViewProjectNode" />
+              <item name="To-Do-List-Web-App" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -364,12 +396,8 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/lib" />
-      <recent name="E:\Banti_IntelliJ\To Do Web App\web\resources\To-Do List" />
-      <recent name="E:\Banti_IntelliJ\To Do Web App\web\resources\Home" />
-      <recent name="E:\Banti_IntelliJ\To Do Web App\web" />
-      <recent name="E:\Banti_IntelliJ\To Do Web App\web\WEB-INF" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.legally.user" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/lib" />
@@ -378,8 +406,15 @@
       <recent name="E:\Banti_IntelliJ\To Do Web App\web\resources\Home" />
       <recent name="E:\Banti_IntelliJ\To Do Web App\web" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.legally.user" />
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="user" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib" />
+      <recent name="E:\Banti_IntelliJ\To Do Web App\web\resources\To-Do List" />
+      <recent name="E:\Banti_IntelliJ\To Do Web App\web\resources\Home" />
+      <recent name="E:\Banti_IntelliJ\To Do Web App\web" />
+      <recent name="E:\Banti_IntelliJ\To Do Web App\web\WEB-INF" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -700,14 +735,16 @@
       <workItem from="1526299740166" duration="3833000" />
       <workItem from="1526344864967" duration="6445000" />
       <workItem from="1526359782521" duration="7615000" />
+      <workItem from="1526369713192" duration="835000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="223433000" />
+    <option name="totallyTimeSpent" value="224268000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-4" width="1282" height="805" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="15" sideWeight="0.5014641" side_tool="true" weight="0.4" />
@@ -899,45 +936,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1872">
-          <caret line="104" column="41" selection-start-line="104" selection-start-column="41" selection-end-line="104" selection-end-column="41" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/user/AddTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/user/DeleteToDo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/user/DeleteTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/resources/To-Do List/To-Do List.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="666">
@@ -1253,59 +1251,74 @@
     <entry file="file://$PROJECT_DIR$/web/resources/To-Do List/To-Do List.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
-          <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/resources/To-Do List/To-Do List.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="117" lean-forward="true" selection-start-line="117" selection-end-line="117" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/user/Register.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="63" column="36" selection-start-line="63" selection-start-column="36" selection-end-line="63" selection-end-column="36" />
+        <state relative-caret-position="2106">
+          <caret line="117" selection-start-line="117" selection-end-line="117" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/user/LoginAndLogout.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
+        <state relative-caret-position="612">
           <caret line="47" column="43" selection-start-line="47" selection-start-column="43" selection-end-line="47" selection-end-column="43" />
           <folding>
             <element signature="e#1969#1970#0" expanded="true" />
-            <element signature="e#2017#2018#0" expanded="true" />
+            <element signature="e#2031#2032#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-396">
+        <state relative-caret-position="1278">
           <caret line="71" column="84" selection-start-line="71" selection-start-column="84" selection-end-line="71" selection-end-column="84" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/resources/Home/login.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="40" lean-forward="true" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
-          <folding>
-            <element signature="e#633#3043#0" />
-            <element signature="e#1703#1986#0" />
-            <element signature="e#2128#2975#0" />
-            <element signature="e#2179#2958#0" />
-            <element signature="e#2315#2435#0" />
-            <element signature="e#2537#2841#0" />
-          </folding>
+        <state relative-caret-position="162">
+          <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/user/DeletePOJO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/user/LoginUserPOJO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/user/AddTaskPOJO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/user/UserPOJO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/user/Register.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="36" column="40" lean-forward="true" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
         </state>
       </provider>
     </entry>

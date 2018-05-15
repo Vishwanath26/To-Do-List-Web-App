@@ -1,6 +1,6 @@
 package user;
 
-public class LoginUser {
+class LoginUser {
     public String email;
     public String password;
     public String userId;

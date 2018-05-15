@@ -1,6 +1,6 @@
 package user;
 
-public class NewTask {
+class NewTask {
     String task;
     String action;
 

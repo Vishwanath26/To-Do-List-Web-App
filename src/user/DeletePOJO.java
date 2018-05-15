@@ -1,6 +1,6 @@
 package user;
 
-public class DeleteTask {
+class DeleteTask {
     String action;
     int taskId;
 
