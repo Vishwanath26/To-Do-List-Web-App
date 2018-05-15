@@ -24,6 +24,7 @@ Tasks table has userId,task,action,taskId as its columns.
 # Backend
 
 Backend is made using Java Spring MVC framework(annotation based)
+
 1.Registration:
 User's entries are sent to controller using form action where first user 
 is checked for making sure no duplicate user.Then user is registered and a view 
@@ -39,22 +40,18 @@ to appear with warning on Login page.
 A button is provided with an input box to add tasks.On click of that button AJAX call
 is made to ADD controller which then adds the task in DB using POJO class.
 
-![ToDo List](/images/TodoList.png
-
+![ToDo List](/images/TodoList.png)
 4.Delete ToDo's:
 On clicking cross button given for each task controller is called through AJAX and taskId is
 sent to it.Controller interacts with DB and sets action of that taskId as delete,it is not 
 deleted permanently.In future if any History is needed then it can be used again.
 
 ![ToDo Delete](/images/ToDoDelete.png)
-
 5.Logout:
 Logout controller is called using loaction.href on button for Logout.
 It redirects user to Login/SignUP page.
 
 ![SignUp Page](/images/SignUp.png)
-
-
 
 # Authors
 
