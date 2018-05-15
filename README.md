@@ -13,7 +13,7 @@ CDN's for enhanced UI and UX.
 
 You can get started by clicking on the fork button on the top of this page.
 
-#Some Snapshots of application
+# Some Snapshots of application
 
 ![SignUp Page](/images/SignUp.png)
 ![Wrong Login](/images/Login.png)
